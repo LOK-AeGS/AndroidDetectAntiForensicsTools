@@ -18,3 +18,6 @@ export PYTHONPATH=/path/python/lib/python3.10
 ### python 코드 실행
 
 ./python/bin/python3 bcc_ex.py
+
+### 유의사항
+실행할 때 bcc_ex.py 아래 bpftrace의 위치도 수정해줘야함.
