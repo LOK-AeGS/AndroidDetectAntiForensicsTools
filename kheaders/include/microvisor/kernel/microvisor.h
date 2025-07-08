@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+#ifndef __AUTO__MICROVISOR_H__
+#define __AUTO__MICROVISOR_H__
+
+
+#define OKL4_SDK_VERSION_MAJOR 5
+
+#define OKL4_SDK_VERSION_MINOR 3
+
+#define OKL4_SDK_VERSION_RELEASE 6
+
+#define OKL4_SDK_VERSION_MAINTENANCE 15
+
+
+
+
+
+
+
+#define OKL4_VCPU_SUPPORT
+
+
+
+#define OKL4_VCPU_SMP_SUPPORT
+
+
+
+#endif 
+

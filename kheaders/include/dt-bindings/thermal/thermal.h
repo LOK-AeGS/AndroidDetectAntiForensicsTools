@@ -1,0 +1,11 @@
+
+
+#ifndef _DT_BINDINGS_THERMAL_THERMAL_H
+#define _DT_BINDINGS_THERMAL_THERMAL_H
+
+
+#define THERMAL_NO_LIMIT		(~0)
+#define THERMAL_MAX_LIMIT		(THERMAL_NO_LIMIT - 1)
+
+#endif
+

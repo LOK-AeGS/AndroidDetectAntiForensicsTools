@@ -1,0 +1,13 @@
+
+uprobe:/system/lib64/libc.so:settimeofday
+{
+    printf("=====================================\n");
+    printf("settimeofday() called\n");
+    printf("  PID: %d\n", pid);
+    printf("  COMM: %s\n", comm);
+    printf("  TID: %d\n", tid);
+    printf("  UID: %d\n", uid);
+    printf("  TIME: %s\n", strftime("%Y-%m-%d %H:%M:%S", nsecs / 1000000000));
+    printf("COMM: %s\n", comm);
+    printf("\nEND_OF_EVENT\n");
+}

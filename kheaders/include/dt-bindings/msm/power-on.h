@@ -1,0 +1,15 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+
+
+#ifndef __MSM_POWER_ON_H__
+#define __MSM_POWER_ON_H__
+
+#define PON_POWER_OFF_RESERVED		0x00
+#define PON_POWER_OFF_WARM_RESET	0x01
+#define PON_POWER_OFF_SHUTDOWN		0x04
+#define PON_POWER_OFF_DVDD_SHUTDOWN	0x05
+#define PON_POWER_OFF_HARD_RESET	0x07
+#define PON_POWER_OFF_DVDD_HARD_RESET	0x08
+#define PON_POWER_OFF_MAX_TYPE		0x10
+
+#endif
